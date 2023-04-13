@@ -1,7 +1,24 @@
 # Docker-compose 
 
-commands to use in docker-compose.yml and stack.yml
-Define and run multi-container applications with Docker
+## Required
+
+- Docker desktop [Download link](https://docs.docker.com/get-docker/)
+
+### or
+
+- Docker ubuntu
+
+Uninstall older versions
+` sudo apt-get remove docker docker-engine docker.io containerd runc`
+
+Install last version
+`sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`
+
+---
+
+**_commands to use in docker-compose.yml and stack.yml_**
+
+**_Define and run multi-container applications with Docker_**
 
 
 #### Define 2 files 
